@@ -1,4 +1,3 @@
-
 with open("day3.txt", "r") as file:
     data = file.readlines()
 
@@ -27,9 +26,6 @@ with open("day3.txt", "r") as file:
             start_index = max_index+1
             need -= 1
 
-
-
         total += int(highest)
-
 
     print(total)
